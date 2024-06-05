@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.mode-button,
+.start-button,
+.reset-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.mode-button.selected {
+  background-color: #42a206;
+}
+
+.start-button:disabled {
+  background-color: #5e7074;
+  color: #414344;
+  cursor: not-allowed;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+
+.highlight {
+  background-color: #02364c;
+}
+
+.reset-button {
+  margin-top: 20px;
+}
